@@ -26,14 +26,7 @@ public class DiaryBlock extends Block {
 
     // ID дневника — задаётся через Палочку Режиссёра
     // Определяет какой текст показывать
-    public static final IntProperty DIARY_ID = IntProperty.of("diary_id", 0, 255);
-        "diary_id",
-        "worker_diary",
-        "director_notebook",
-        "basement_diary",
-        "village_diary",
-        "empty_house_diary"
-    );
+    public static final IntProperty DIARY_ID = IntProperty.of("diary_id", 0, 5);
 
     // Форма — лежащая книга
     private static final VoxelShape SHAPE =
@@ -44,7 +37,7 @@ public class DiaryBlock extends Block {
         setDefaultState(getStateManager()
             .getDefaultState()
             .with(FACING, Direction.NORTH)
-            .with(DIARY_ID, "worker_diary"));
+            .with(DIARY_ID, 0));
     }
 
     @Override
@@ -81,9 +74,9 @@ public class DiaryBlock extends Block {
         BlockHitResult hit
     ) {
         if (world.isClient()) {
-            String diaryId = state.get(DIARY_ID);
+            int diaryId = state.get(DIARY_ID);
             // Открываем экран дневника
-            DiaryScreen.open(diaryId);
+            DiaryScreen.open(String.valueOf(diaryId));
         }
         return ActionResult.SUCCESS;
     }
