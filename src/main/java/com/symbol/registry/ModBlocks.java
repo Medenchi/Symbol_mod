@@ -17,297 +17,345 @@ public class ModBlocks {
     // ==============================
     // ДЕРЕВО / ДОСКИ
     // ==============================
-    public static final Block ГНИЛАЯ_ДОСКА = register("гнилая_доска",
+    public static final Block ROTTEN_PLANK = register("rotten_plank",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
             .strength(0.5f, 0.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
-    public static final Block ГНИЛАЯ_ДОСКА_ПОТРЕПАННАЯ = register("гнилая_доска_потрепанная",
+    public static final Block ROTTEN_PLANK_WORN = register("rotten_plank_worn",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
             .strength(0.3f, 0.3f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
-    public static final Block ГНИЛАЯ_ДОСКА_РАЗРУШЕННАЯ = register("гнилая_доска_разрушенная",
+    public static final Block ROTTEN_PLANK_DESTROYED = register("rotten_plank_destroyed",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
             .strength(0.1f, 0.1f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
-    public static final Block СОВЕТСКАЯ_ДОСКА = register("советская_доска",
+    public static final Block SOVIET_PLANK = register("soviet_plank",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
             .strength(1.5f, 1.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
     // ==============================
     // ПЛИТКА
     // ==============================
-    public static final Block СОВЕТСКАЯ_ПЛИТКА = register("советская_плитка",
+    public static final Block SOVIET_TILE = register("soviet_tile",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТКА_ПОТРЕПАННАЯ = register("советская_плитка_потрепанная",
+    public static final Block SOVIET_TILE_WORN = register("soviet_tile_worn",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.2f, 4.0f)));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТКА_РАЗРУШЕННАЯ = register("советская_плитка_разрушенная",
+    public static final Block SOVIET_TILE_DESTROYED = register("soviet_tile_destroyed",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(0.8f, 2.0f)));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТКА_БЕЛАЯ = register("советская_плитка_белая",
+    public static final Block SOVIET_TILE_WHITE = register("soviet_tile_white",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТКА_ЗЕЛЕНАЯ = register("советская_плитка_зеленая",
+    public static final Block SOVIET_TILE_GREEN = register("soviet_tile_green",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТКА_ЖЕЛТАЯ = register("советская_плитка_желтая",
+    public static final Block SOVIET_TILE_YELLOW = register("soviet_tile_yellow",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
     // ==============================
     // СТЕКЛО
     // ==============================
-    public static final Block СТАРОЕ_СТЕКЛО = register("старое_стекло",
+    public static final Block OLD_GLASS = register("old_glass",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
             .strength(0.3f, 0.3f).nonOpaque()));
 
-    public static final Block ТРЕСНУТОЕ_СТЕКЛО = register("треснутое_стекло",
+    public static final Block CRACKED_GLASS = register("cracked_glass",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
             .strength(0.2f, 0.2f).nonOpaque()));
 
-    public static final Block МУТНОЕ_СТЕКЛО = register("мутное_стекло",
+    public static final Block MURKY_GLASS = register("murky_glass",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
             .strength(0.3f, 0.3f).nonOpaque()));
 
     // ==============================
     // МЕТАЛЛ / РЖАВЧИНА
     // ==============================
-    public static final Block РЖАВАЯ_ПАНЕЛЬ = register("ржавая_панель",
+    public static final Block RUSTY_PANEL = register("rusty_panel",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL)));
 
-    public static final Block РЖАВАЯ_ПАНЕЛЬ_ПОТРЕПАННАЯ = register("ржавая_панель_потрепанная",
+    public static final Block RUSTY_PANEL_WORN = register("rusty_panel_worn",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(2.0f, 4.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL)));
 
-    public static final Block РЖАВАЯ_ПАНЕЛЬ_РАЗРУШЕННАЯ = register("ржавая_панель_разрушенная",
+    public static final Block RUSTY_PANEL_DESTROYED = register("rusty_panel_destroyed",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(1.0f, 2.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL)));
 
-    public static final Block МЕТАЛЛИЧЕСКАЯ_ПЛИТА = register("металлическая_плита",
+    public static final Block METAL_PLATE = register("metal_plate",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(4.0f, 8.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL)));
 
-    public static final Block ПЕРФОРИРОВАННЫЙ_МЕТАЛЛ = register("перфорированный_металл",
+    public static final Block PERFORATED_METAL = register("perforated_metal",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
 
     // ==============================
     // ТРУБЫ
     // ==============================
-    public static final Block ТРУБА_ВЕРТИКАЛЬНАЯ = register("труба_вертикальная",
+    public static final Block PIPE_VERTICAL = register("pipe_vertical",
         new PipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
 
-    public static final Block ТРУБА_ГОРИЗОНТАЛЬНАЯ = register("труба_горизонтальная",
+    public static final Block PIPE_HORIZONTAL = register("pipe_horizontal",
         new PipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
 
-    public static final Block ТРУБА_РЖАВАЯ = register("труба_ржавая",
+    public static final Block PIPE_RUSTY = register("pipe_rusty",
         new PipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(2.0f, 4.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
 
-    public static final Block ТРУБА_УГОЛ = register("труба_угол",
+    public static final Block PIPE_CORNER = register("pipe_corner",
         new PipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
 
     // ==============================
     // ЛАМПЫ
     // ==============================
-    public static final Block ЛАМПА_СОВЕТСКАЯ = register("лампа_советская",
+    public static final Block LAMP_SOVIET = register("lamp_soviet",
         new LampBlock(FabricBlockSettings.create()
-            .strength(0.5f, 0.5f).luminance(state ->
-                state.get(LampBlock.LIT) ? 15 : 0).nonOpaque()));
+            .strength(0.5f, 0.5f)
+            .luminance(state -> state.get(LampBlock.LIT) ? 15 : 0)
+            .nonOpaque()));
 
-    public static final Block ЛАМПА_СОВЕТСКАЯ_МИГАЮЩАЯ = register("лампа_советская_мигающая",
+    public static final Block LAMP_SOVIET_FLICKER = register("lamp_soviet_flicker",
         new FlickerLampBlock(FabricBlockSettings.create()
-            .strength(0.5f, 0.5f).luminance(state ->
-                state.get(LampBlock.LIT) ? 12 : 0).nonOpaque()));
+            .strength(0.5f, 0.5f)
+            .luminance(state -> state.get(LampBlock.LIT) ? 12 : 0)
+            .nonOpaque()));
 
-    public static final Block ЛАМПА_АВАРИЙНАЯ = register("лампа_аварийная",
+    public static final Block LAMP_EMERGENCY = register("lamp_emergency",
         new LampBlock(FabricBlockSettings.create()
-            .strength(0.5f, 0.5f).luminance(state ->
-                state.get(LampBlock.LIT) ? 8 : 0).nonOpaque()));
+            .strength(0.5f, 0.5f)
+            .luminance(state -> state.get(LampBlock.LIT) ? 8 : 0)
+            .nonOpaque()));
 
-    public static final Block ЛАМПА_КРАСНАЯ = register("лампа_красная",
+    public static final Block LAMP_RED = register("lamp_red",
         new LampBlock(FabricBlockSettings.create()
-            .strength(0.5f, 0.5f).luminance(state ->
-                state.get(LampBlock.LIT) ? 10 : 0).nonOpaque()));
+            .strength(0.5f, 0.5f)
+            .luminance(state -> state.get(LampBlock.LIT) ? 10 : 0)
+            .nonOpaque()));
 
-    public static final Block ЛЮМИНЕСЦЕНТНАЯ_ЛАМПА = register("люминесцентная_лампа",
+    public static final Block LAMP_FLUORESCENT = register("lamp_fluorescent",
         new LampBlock(FabricBlockSettings.create()
-            .strength(0.3f, 0.3f).luminance(state ->
-                state.get(LampBlock.LIT) ? 15 : 0).nonOpaque()));
+            .strength(0.3f, 0.3f)
+            .luminance(state -> state.get(LampBlock.LIT) ? 15 : 0)
+            .nonOpaque()));
 
     // ==============================
     // СТЕНЫ
     // ==============================
-    public static final Block ОБШАРПАННАЯ_СТЕНА = register("обшарпанная_стена",
+    public static final Block WORN_WALL = register("worn_wall",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
-    public static final Block ОБШАРПАННАЯ_СТЕНА_ПОТРЕПАННАЯ = register("обшарпанная_стена_потрепанная",
+    public static final Block WORN_WALL_HEAVY = register("worn_wall_heavy",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.0f, 4.0f)));
 
-    public static final Block СТЕНА_СО_ШТУКАТУРКОЙ = register("стена_со_штукатуркой",
+    public static final Block PLASTER_WALL = register("plaster_wall",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 6.0f)));
 
-    public static final Block СТЕНА_КИРПИЧ_СОВЕТСКИЙ = register("стена_кирпич_советский",
+    public static final Block SOVIET_BRICK = register("soviet_brick",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.BRICK_BLOCK)
             .strength(2.0f, 6.0f)));
 
-    public static final Block СТЕНА_КИРПИЧ_ТРЕСНУТЫЙ = register("стена_кирпич_треснутый",
+    public static final Block SOVIET_BRICK_CRACKED = register("soviet_brick_cracked",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.BRICK_BLOCK)
             .strength(1.5f, 4.0f)));
 
     // ==============================
     // ПОЛЫ
     // ==============================
-    public static final Block ЛИНОЛЕУМ = register("линолеум",
+    public static final Block LINOLEUM = register("linoleum",
         new DecorativeBlock(FabricBlockSettings.create()
             .strength(0.5f, 0.5f)));
 
-    public static final Block ЛИНОЛЕУМ_ПОТРЕПАННЫЙ = register("линолеум_потрепанный",
+    public static final Block LINOLEUM_WORN = register("linoleum_worn",
         new DecorativeBlock(FabricBlockSettings.create()
             .strength(0.3f, 0.3f)));
 
-    public static final Block БЕТОННАЯ_ПЛИТА = register("бетонная_плита",
+    public static final Block CONCRETE_SLAB_DECO = register("concrete_slab_deco",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(2.0f, 6.0f)));
 
-    public static final Block БЕТОННАЯ_ПЛИТА_ТРЕСНУТАЯ = register("бетонная_плита_треснутая",
+    public static final Block CONCRETE_SLAB_CRACKED = register("concrete_slab_cracked",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(1.5f, 4.0f)));
 
     // ==============================
     // МЕБЕЛЬ
     // ==============================
-    public static final Block СОВЕТСКИЙ_СТОЛ = register("советский_стол",
+    public static final Block SOVIET_TABLE = register("soviet_table",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(1.5f, 1.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOD).nonOpaque()));
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_СТУЛ = register("советский_стул",
+    public static final Block SOVIET_CHAIR = register("soviet_chair",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(1.0f, 1.0f).sounds(net.minecraft.block.BlockSoundGroup.WOOD).nonOpaque()));
+            .strength(1.0f, 1.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_ШКАФ = register("советский_шкаф",
+    public static final Block SOVIET_WARDROBE = register("soviet_wardrobe",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(2.0f, 2.0f).sounds(net.minecraft.block.BlockSoundGroup.WOOD).nonOpaque()));
+            .strength(2.0f, 2.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКАЯ_КРОВАТЬ_ДЕКОР = register("советская_кровать_декор",
+    public static final Block SOVIET_BED_DECO = register("soviet_bed_deco",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(1.5f, 1.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOD).nonOpaque()));
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_ДИВАН = register("советский_диван",
+    public static final Block SOVIET_SOFA = register("soviet_sofa",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(1.5f, 1.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOL).nonOpaque()));
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOL)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_ХОЛОДИЛЬНИК = register("советский_холодильник",
+    public static final Block SOVIET_FRIDGE = register("soviet_fridge",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(3.0f, 3.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
+            .strength(3.0f, 3.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.METAL)
+            .nonOpaque()));
 
-    public static final Block СОВЕТСКАЯ_ПЛИТА = register("советская_плита",
+    public static final Block SOVIET_STOVE = register("soviet_stove",
         new FurnitureBlock(FabricBlockSettings.create()
-            .strength(3.0f, 3.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
+            .strength(3.0f, 3.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.METAL)
+            .nonOpaque()));
+
+    public static final Block SOVIET_DESK = register("soviet_desk",
+        new FurnitureBlock(FabricBlockSettings.create()
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
+
+    public static final Block SOVIET_BOOKSHELF = register("soviet_bookshelf",
+        new FurnitureBlock(FabricBlockSettings.create()
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)
+            .nonOpaque()));
 
     // ==============================
     // ЯЩИКИ И КОНТЕЙНЕРЫ
     // ==============================
-    public static final Block ДЕРЕВЯННЫЙ_ЯЩИК = register("деревянный_ящик",
+    public static final Block WOODEN_CRATE = register("wooden_crate",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
-            .strength(1.5f, 1.5f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
+            .strength(1.5f, 1.5f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
-    public static final Block МЕТАЛЛИЧЕСКИЙ_ЯЩИК = register("металлический_ящик",
+    public static final Block METAL_CRATE = register("metal_crate",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
-            .strength(3.0f, 6.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL)));
+            .strength(3.0f, 6.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.METAL)));
 
-    public static final Block СОВЕТСКАЯ_БОЧКА = register("советская_бочка",
+    public static final Block SOVIET_BARREL = register("soviet_barrel",
         new DecorativeBlock(FabricBlockSettings.create()
-            .strength(2.0f, 2.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
+            .strength(2.0f, 2.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.METAL)
+            .nonOpaque()));
 
     // ==============================
     // ПЛАКАТЫ
     // ==============================
-    public static final Block СОВЕТСКИЙ_ПЛАКАТ_1 = register("советский_плакат_1",
+    public static final Block SOVIET_POSTER_1 = register("soviet_poster_1",
         new PosterBlock(FabricBlockSettings.create()
             .strength(0.2f, 0.2f).nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_ПЛАКАТ_2 = register("советский_плакат_2",
+    public static final Block SOVIET_POSTER_2 = register("soviet_poster_2",
         new PosterBlock(FabricBlockSettings.create()
             .strength(0.2f, 0.2f).nonOpaque()));
 
-    public static final Block СОВЕТСКИЙ_ПЛАКАТ_3 = register("советский_плакат_3",
+    public static final Block SOVIET_POSTER_3 = register("soviet_poster_3",
         new PosterBlock(FabricBlockSettings.create()
             .strength(0.2f, 0.2f).nonOpaque()));
 
-    public static final Block ПЛАКАТ_РОЗЫСК = register("плакат_розыск",
+    public static final Block WANTED_POSTER = register("wanted_poster",
         new PosterBlock(FabricBlockSettings.create()
             .strength(0.2f, 0.2f).nonOpaque()));
 
-    public static final Block ДОСКА_ОБЪЯВЛЕНИЙ = register("доска_объявлений",
+    public static final Block NOTICE_BOARD = register("notice_board",
         new PosterBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
             .strength(1.0f, 1.0f).nonOpaque()));
 
     // ==============================
     // ЗАВОДСКИЕ БЛОКИ
     // ==============================
-    public static final Block ЗАВОДСКОЙ_ПОЛ = register("заводской_пол",
+    public static final Block FACTORY_FLOOR = register("factory_floor",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(2.0f, 6.0f)));
 
-    public static final Block ЗАВОДСКАЯ_СТЕНА = register("заводская_стена",
+    public static final Block FACTORY_WALL = register("factory_wall",
         new DecorativeBlock(FabricBlockSettings.copyOf(Blocks.STONE)
             .strength(2.0f, 8.0f)));
 
-    public static final Block ПРОГНИВШИЙ_НАСТИЛ = register("прогнивший_настил",
+    public static final Block ROTTEN_FLOOR = register("rotten_floor",
         new TrapFloorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)
-            .strength(0.1f, 0.1f).sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
+            .strength(0.1f, 0.1f)
+            .sounds(net.minecraft.block.BlockSoundGroup.WOOD)));
 
-    public static final Block ЗАВОДСКОЙ_СТАНОК = register("заводской_станок",
+    public static final Block FACTORY_MACHINE = register("factory_machine",
         new FurnitureBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
-            .strength(5.0f, 10.0f).sounds(net.minecraft.block.BlockSoundGroup.METAL).nonOpaque()));
+            .strength(5.0f, 10.0f)
+            .sounds(net.minecraft.block.BlockSoundGroup.METAL)
+            .nonOpaque()));
 
-    public static final Block СТЕКЛЯННАЯ_ФОРМА = register("стеклянная_форма",
+    public static final Block GLASS_MOLD = register("glass_mold",
         new KeyPropBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
             .strength(1.0f, 1.0f).nonOpaque()));
 
     // ==============================
-    // СПЕЦИАЛЬНЫЕ БЛОКИ СЮЖЕТА
+    // СПЕЦИАЛЬНЫЕ СЮЖЕТНЫЕ БЛОКИ
     // ==============================
-    public static final Block СИМВОЛ_НА_СТЕНЕ = register("символ_на_стене",
+    public static final Block SYMBOL_WALL = register("symbol_wall",
         new SymbolBlock(FabricBlockSettings.create()
-            .strength(0.1f, 0.1f).nonOpaque().luminance(s -> 2)));
+            .strength(0.1f, 0.1f)
+            .nonOpaque()
+            .luminance(s -> 2)));
 
-    public static final Block СИМВОЛ_НА_ПОЛУ = register("символ_на_полу",
+    public static final Block SYMBOL_FLOOR = register("symbol_floor",
         new SymbolBlock(FabricBlockSettings.create()
-            .strength(0.1f, 0.1f).nonOpaque()));
+            .strength(0.1f, 0.1f)
+            .nonOpaque()));
 
-    public static final Block СТЕКЛО_С_ЧЕЛОВЕКОМ = register("стекло_с_человеком",
+    public static final Block GLASS_CORPSE = register("glass_corpse",
         new GlassCorpseBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
-            .strength(2.0f, 2.0f).nonOpaque().luminance(s -> 3)));
+            .strength(2.0f, 2.0f)
+            .nonOpaque()
+            .luminance(s -> 3)));
 
-    public static final Block ДНЕВНИК_БЛОК = register("дневник_блок",
+    public static final Block DIARY_BLOCK = register("diary_block",
         new DiaryBlock(FabricBlockSettings.create()
-            .strength(0.2f, 0.2f).nonOpaque()));
+            .strength(0.2f, 0.2f)
+            .nonOpaque()));
 
     // ==============================
-    // КНОПКИ СЮЖЕТНЫЕ
+    // 3D КНОПКИ
     // ==============================
-    public static final Block КНОПКА_3D_СТАРТ = register("кнопка_3d_старт",
+    public static final Block BUTTON_3D_START = register("button_3d_start",
         new Button3DBlock(FabricBlockSettings.create()
-            .strength(-1.0f, 3600000.0f).nonOpaque().luminance(s -> 8)));
+            .strength(-1.0f, 3600000.0f)
+            .nonOpaque()
+            .luminance(s -> 8)));
 
-    public static final Block КНОПКА_3D_ВЫБОР = register("кнопка_3d_выбор",
+    public static final Block BUTTON_3D_CHOICE = register("button_3d_choice",
         new Button3DChoiceBlock(FabricBlockSettings.create()
-            .strength(-1.0f, 3600000.0f).nonOpaque().luminance(s -> 6)));
+            .strength(-1.0f, 3600000.0f)
+            .nonOpaque()
+            .luminance(s -> 6)));
 
     // ==============================
     // ВСПОМОГАТЕЛЬНЫЕ МЕТОДЫ
@@ -316,16 +364,20 @@ public class ModBlocks {
 
     private static Block register(String name, Block block) {
         blockCount++;
-        Registry.register(Registries.BLOCK, new Identifier(SymbolMod.MOD_ID, name), block);
-        Registry.register(Registries.ITEM,
+        Registry.register(
+            Registries.BLOCK,
             new Identifier(SymbolMod.MOD_ID, name),
-            new BlockItem(block, new FabricItemSettings()));
+            block
+        );
+        Registry.register(
+            Registries.ITEM,
+            new Identifier(SymbolMod.MOD_ID, name),
+            new BlockItem(block, new FabricItemSettings())
+        );
         return block;
     }
 
-    public static int getBlockCount() {
-        return blockCount;
-    }
+    public static int getBlockCount() { return blockCount; }
 
     public static void register() {
         SymbolMod.LOGGER.info("Регистрация декоративных блоков...");
