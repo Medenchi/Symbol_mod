@@ -1,5 +1,6 @@
 package com.symbol.block;
 
+import net.minecraft.block.Block;  // ← ДОБАВЬ ЭТУ СТРОКУ
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.state.StateManager;
