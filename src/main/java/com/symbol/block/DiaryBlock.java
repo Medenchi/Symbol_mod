@@ -26,7 +26,7 @@ public class DiaryBlock extends Block {
 
     // ID дневника — задаётся через Палочку Режиссёра
     // Определяет какой текст показывать
-    public static final StringProperty DIARY_ID = StringProperty.of(
+    public static final IntProperty DIARY_ID = IntProperty.of("diary_id", 0, 255);
         "diary_id",
         "worker_diary",
         "director_notebook",
