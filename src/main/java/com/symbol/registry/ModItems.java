@@ -13,10 +13,10 @@ import com.symbol.item.*;
 public class ModItems {
 
     // ==============================
-    // ИНСТРУМЕНТЫ РЕЖИССЁРА
+    // ИНСТРУМЕНТЫ
     // ==============================
-    public static final Item ПАЛОЧКА_РЕЖИССЁРА = register(
-        "палочка_режиссёра",
+    public static final Item DIRECTORS_WAND = register(
+        "directors_wand",
         new DirectorWandItem(new FabricItemSettings()
             .maxCount(1)
             .rarity(Rarity.EPIC))
@@ -25,94 +25,120 @@ public class ModItems {
     // ==============================
     // ПРЕДМЕТЫ СЮЖЕТА
     // ==============================
-    public static final Item ДНЕВНИК = register(
-        "дневник",
+    public static final Item DIARY = register(
+        "diary",
         new DiaryItem(new FabricItemSettings()
             .maxCount(1)
             .rarity(Rarity.UNCOMMON))
     );
 
-    public static final Item ПАПКА_ДЕЛА = register(
-        "папка_дела",
+    public static final Item CASE_FILE = register(
+        "case_file",
         new CaseFileItem(new FabricItemSettings()
             .maxCount(1))
     );
 
-    public static final Item ФОНАРИК = register(
-        "фонарик",
+    public static final Item FLASHLIGHT = register(
+        "flashlight",
         new FlashlightItem(new FabricItemSettings()
             .maxCount(1))
     );
 
-    public static final Item ЗНАЧОК_ДЕТЕКТИВА = register(
-        "значок_детектива",
+    public static final Item DETECTIVE_BADGE = register(
+        "detective_badge",
         new Item(new FabricItemSettings()
             .maxCount(1)
             .rarity(Rarity.UNCOMMON))
     );
 
-    public static final Item ЗАЖИГАЛКА = register(
-        "зажигалка",
+    public static final Item LIGHTER = register(
+        "lighter",
         new Item(new FabricItemSettings()
             .maxCount(1))
     );
 
-    public static final Item ФОТОГРАФИЯ_РОДИТЕЛЕЙ = register(
-        "фотография_родителей",
+    public static final Item PARENTS_PHOTO = register(
+        "parents_photo",
         new PhotoItem(new FabricItemSettings()
             .maxCount(1))
     );
 
-    public static final Item КЛЮЧ_ПОДВАЛА = register(
-        "ключ_подвала",
+    public static final Item BASEMENT_KEY = register(
+        "basement_key",
         new Item(new FabricItemSettings()
             .maxCount(1)
             .rarity(Rarity.RARE))
     );
 
-    public static final Item ДНЕВНИК_РАБОЧЕГО = register(
-        "дневник_рабочего",
+    public static final Item WORKER_DIARY = register(
+        "worker_diary",
         new DiaryItem(new FabricItemSettings()
             .maxCount(1)
             .rarity(Rarity.RARE))
+    );
+
+    public static final Item SPARE_FLASHLIGHT = register(
+        "spare_flashlight",
+        new FlashlightItem(new FabricItemSettings()
+            .maxCount(1))
     );
 
     // ==============================
     // УЛИКИ
     // ==============================
-    public static final Item УЛИКА_ЖУРНАЛ_ПОСЕЩЕНИЙ = register(
-        "улика_журнал_посещений",
-        new EvidenceItem(new FabricItemSettings().maxCount(1), "journal_1979")
+    public static final Item EVIDENCE_VISIT_JOURNAL = register(
+        "evidence_visit_journal",
+        new EvidenceItem(new FabricItemSettings().maxCount(1), "visit_journal")
     );
 
-    public static final Item УЛИКА_НАКЛАДНАЯ_К7 = register(
-        "улика_накладная_к7",
+    public static final Item EVIDENCE_INVOICE_K7 = register(
+        "evidence_invoice_k7",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "invoice_k7")
     );
 
-    public static final Item УЛИКА_ЗАПИСНАЯ_КНИЖКА = register(
-        "улика_записная_книжка",
+    public static final Item EVIDENCE_DIRECTOR_NOTEBOOK = register(
+        "evidence_director_notebook",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "director_notebook")
     );
 
-    public static final Item УЛИКА_ДНЕВНИК_ПОДВАЛА = register(
-        "улика_дневник_подвала",
+    public static final Item EVIDENCE_BASEMENT_DIARY = register(
+        "evidence_basement_diary",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "basement_diary")
     );
 
-    public static final Item УЛИКА_РОБА_АЛИЕВА = register(
-        "улика_роба_алиева",
+    public static final Item EVIDENCE_ALIEV_ROBE = register(
+        "evidence_aliev_robe",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "aliev_robe")
     );
 
-    public static final Item УЛИКА_ФОТО_ОХРАННИКА = register(
-        "улика_фото_охранника",
+    public static final Item EVIDENCE_GUARD_PHOTO = register(
+        "evidence_guard_photo",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "guard_photo")
     );
 
-    public static final Item УЛИКА_СХЕМА_ТЕХНОЛОГИЧЕСКАЯ = register(
-        "улика_схема_технологическая",
+    public static final Item EVIDENCE_TECH_SCHEME = register(
+        "evidence_tech_scheme",
         new EvidenceItem(new FabricItemSettings().maxCount(1), "tech_scheme")
+    );
+
+    public static final Item EVIDENCE_NOTICE_BOARD = register(
+        "evidence_notice_board",
+        new EvidenceItem(new FabricItemSettings().maxCount(1), "notice_board")
+    );
+
+    public static final Item EVIDENCE_SAFETY_POSTER = register(
+        "evidence_safety_poster",
+        new EvidenceItem(new FabricItemSettings().maxCount(1), "safety_poster")
+    );
+
+    public static final Item EVIDENCE_MATTRESSES = register(
+        "evidence_mattresses",
+        new EvidenceItem(new FabricItemSettings().maxCount(1), "mattresses")
+    );
+
+    public static final Item EVIDENCE_CANS = register(
+        "evidence_cans",
+        new EvidenceItem(new FabricItemSettings().maxCount(1), "cans")
     );
 
     // ==============================
