@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "symbol",
+  "version": "${version}",
+  "name": "Symbol",
+  "description": "Сюжетный мод для карты 'Символ' - детективное расследование о наблюдении и паранойе",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "sources": "https://github.com/yourname/symbol-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/symbol/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.symbol.SymbolMod"
+    ],
+    "client": [
+      "com.symbol.SymbolModClient"
+    ]
+  },
+  "mixins": [
+    "symbol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "geckolib": ">=4.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
