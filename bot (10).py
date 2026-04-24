@@ -624,11 +624,14 @@ def get_start_keyboard():
             **S("primary"),
         )],
         [InlineKeyboardButton(
+            text=f"{E_LOGO} Наш канал {E_LOGO}",
+            url="https://t.me/pulse_computers",
+        )],
+        [InlineKeyboardButton(
             text="Написать менеджеру",
             url=MANAGER_DEEPLINK,
         )],
     ])
-
 def get_admin_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
         [
